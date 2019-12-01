@@ -4,5 +4,9 @@ RSpec.describe Hello do
   it "message return hello" do
     expect(Hello.new.message).to eq "hello"
   end
+
+  it "hi return hi" do
+    expect(Hello.new.hi).to eq "hi"
+  end
 end
 
